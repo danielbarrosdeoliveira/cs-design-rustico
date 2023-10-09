@@ -10,8 +10,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="pt-Br">
-      <body>{children}</body>
+    <html lang="pt-BR">
+      <body className="overflow-hidden">{children}</body>
     </html>
   );
 }
