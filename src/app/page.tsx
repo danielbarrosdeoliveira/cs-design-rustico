@@ -1,9 +1,13 @@
+import { Header } from "@/components/Header";
+
 import "../assets/css/globals.css";
 
-export default function Home() {
+const Home = () => {
   return (
-    <main>
-      <h1>Página Home</h1>
-    </main>
+    <>
+      <Header />
+    </>
   );
-}
+};
+
+export default Home;
