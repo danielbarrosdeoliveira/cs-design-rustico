@@ -1,8 +1,8 @@
 import { Header } from "@/components/Header";
 import { Intro } from "@/components/Intro";
+import { About } from "@/components/About";
 
 import "../assets/css/globals.css";
-import { About } from "@/components/About";
 
 const Home = () => {
   return (
