@@ -1,18 +1,19 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const Header = () => {
   return (
     <header className="bg-[#333]">
       <div className="container mx-auto sm:px-6">
         <nav className="container flex justify-between h-16 items-center">
-          <a href="/">
+          <Link href="/">
             <Image
               src="/images/logo-cs-rustico.png"
               alt="Logo Carlos Silva Design Rústico"
               width={90}
               height={60}
             />
-          </a>
+          </Link>
           <ul className="flex">
             <li>
               <a
