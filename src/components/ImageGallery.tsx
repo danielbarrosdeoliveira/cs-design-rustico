@@ -95,7 +95,7 @@ export const ImageGallery = () => {
       </div>
 
       <div className="row-span-2 row-start-5">
-        <img src="/images/trabalhos/10.jpg" alt="" className="rounded-lg" />
+        <img src="/images/trabalhos/15.jpg" alt="" className="rounded-lg" />
       </div>
       <div className="row-span-2 row-start-5">
         <img src="/images/trabalhos/16.jpg" alt="" className="rounded-lg" />
