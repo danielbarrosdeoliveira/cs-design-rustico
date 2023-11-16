@@ -1,9 +1,11 @@
 import { Header } from "@/components/Header";
 import { Intro } from "@/components/Intro";
 import { About } from "@/components/About";
-import { ImageGallery } from "@/components/ImageGallery";
+import { Footer } from "@/components/Footer";
+import { GalleryImage } from "@/components/GalleryImage";
+import { Contact } from "@/components/Contact";
 
-import "../assets/css/globals.css";
+import "@/styles/global.css";
 
 const Home = () => {
   return (
@@ -11,7 +13,9 @@ const Home = () => {
       <Header />
       <Intro />
       <About />
-      <ImageGallery />
+      <GalleryImage />
+      {/* <Contact /> */}
+      <Footer />
     </>
   );
 };
