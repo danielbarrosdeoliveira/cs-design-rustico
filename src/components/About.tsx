@@ -1,6 +1,6 @@
 export const About = () => {
   return (
-    <section id="about" className="py-12 container mx-auto">
+    <section id="about" className="py-12 container mx-auto sm:px-6">
       <div className="w-full flex gap-4 items-center justify-center">
         <div className="w-full flex flex-col items-center">
           <h2 className="text-3xl uppercase font-bold">Quem Somos?</h2>

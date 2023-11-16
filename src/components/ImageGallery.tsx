@@ -21,7 +21,7 @@ const images = [
 
 export const ImageGallery = () => {
   return (
-    <div className="container mx-auto grid grid-cols-4 grid-rows-6 gap-4">
+    <div className="container mx-auto grid grid-cols-4 grid-rows-6 gap-4 sm:px-6">
       <div className="row-span-2">
         <img src="/images/trabalhos/10.jpg" alt="" className="rounded-lg" />
       </div>
