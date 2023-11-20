@@ -11,7 +11,22 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body className="overflow-x-hidden">{children}</body>
+      <body className="overflow-x-hidden">
+        {children}
+
+        <link
+          rel="stylesheet"
+          href="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-button.css"
+        />
+        <a
+          id="robbu-whatsapp-button"
+          target="_blank"
+          href="https://api.whatsapp.com/send?phone=5511974939863&text=Ol%C3%A1%20gostaria%20de%20realizar%20um%20or%C3%A7amento..."
+        >
+          <div className="rwb-tooltip">Realizar orçamento</div>
+          <img src="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-icon.svg" />
+        </a>
+      </body>
     </html>
   );
 }
