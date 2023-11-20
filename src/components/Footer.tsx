@@ -1,6 +1,6 @@
 export const Footer = () => {
   return (
-    <footer className="flex flex-col items-center justify-center h-24 bg-[#d18448] mt-12">
+    <footer className="flex flex-col items-center justify-center h-24 bg-[#d18448] mt-12 px-8 text-center">
       <p className="text-white">
         copyright &copy; CS Designer Rústico - Todos os Direitos Reservados
       </p>
