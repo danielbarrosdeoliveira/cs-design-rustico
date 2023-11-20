@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export const Header = () => {
   return (
-    <header className="bg-[#333]">
-      <div className="container mx-auto sm:px-6">
+    <header className="bg-zinc-800">
+      <div className="container mx-auto px-8">
         <nav className="container flex justify-between h-16 items-center">
           <Link href="/">
             <Image
