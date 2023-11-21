@@ -4,6 +4,7 @@ import { About } from "@/components/About";
 import { Footer } from "@/components/Footer";
 import { GalleryImage } from "@/components/GalleryImage";
 import { Services } from "@/components/Services";
+import { Contact } from "@/components/Contact";
 
 import "@/styles/global.css";
 
@@ -15,6 +16,7 @@ const Home = () => {
       <About />
       <Services />
       <GalleryImage />
+      <Contact />
       <Footer />
     </>
   );
